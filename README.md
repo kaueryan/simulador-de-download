@@ -1,1 +1,3 @@
-# simulador-de-download
+# Relatório
+
+O objetivo deste trabalho é demonstrar, de forma básica, o funcionamento de threads na execução de múltiplas tarefas, simulando o download simultâneo de três arquivos e evidenciando a concorrência em sistemas operacionais. O programa realiza a execução por meio de uma rotina de download criada com um laço de repetição, além de exibir o progresso em porcentagem, utilizando uma pausa de 200 ms com Thread.Sleep. Cada thread é iniciada com o método Start(), permitindo a execução paralela dos downloads, e ao final é utilizado o Join(), garantindo que o programa aguarde a conclusão de todas as threads antes de ser encerrado pelo usuário. Tecnologias utilizadas: C# e a biblioteca System.Threading.
